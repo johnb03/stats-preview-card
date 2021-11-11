@@ -7,10 +7,12 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
       rel="stylesheet"
     />
-    ">
+
     <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/mobile.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!-- displays site properly based on user's device -->
 
     <link
@@ -22,7 +24,6 @@
 
     <title>Frontend Mentor | Stats preview card component</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       .attribution {
         font-size: 11px;
@@ -34,32 +35,51 @@
     </style>
   </head>
   <body>
-    <div class="container">
-      <section class="title">
-        <div class="title_text--1 text">
-          Get insights that help your business grow.
+    <div class="contain">
+      <div class="box_text">
+        <div class="box_text--1">
+          Get <spam class="box_text--color">insights </spam>that help your
+          business grow.
         </div>
-        <div class="title_text--2 text">
+        <div class="box_text--2 text">
           Discover the benefits of data analytics and make better decisions
           regarding revenue, customer experience, and overall efficiency.
         </div>
-        <div class="info">
-          <p class="info_number">10k+</p>
-          <p class="info_text">companies</p>
-          <p class="info_number">314</p>
-          <p class="info_text">templates</p>
-          <p class="info_number">12m+</p>
-          <p class="info_text">queries</p>
+        <div class="stats">
+          <div class="stats_1">
+            <p class="stats_number">10k+</p>
+            <p class="stats_text">companies</p>
+          </div>
+          <div class="stats_2">
+            <p class="stats_number">314</p>
+            <p class="stats_text">templates</p>
+          </div>
+          <div class="stats_3">
+            <p class="stats_number">12M+</p>
+            <p class="stats_text">queries</p>
+          </div>
         </div>
-      </section>
-      <div class="header"></div>
+      </div>
+
+      <div class="header_img">
+        <img
+          src="/images/image-header-desktop.jpg"
+          alt="img header"
+          class="img_desktop"
+        />
+        <img
+          src="/images/image-header-mobile.jpg"
+          alt="img mobile"
+          class="img_mobile"
+        />
+      </div>
     </div>
 
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by <a href="#">John Berroa |JB</a>.
     </div>
   </body>
 </html>
