@@ -18,7 +18,7 @@ body {
 }
 
 .contain {
-  width: 90vw;
+  width: 1440px;
   height: 450px;
   display: flex;
   margin-top: 3em;
